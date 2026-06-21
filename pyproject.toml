@@ -4,7 +4,12 @@ version = "0.1.0"
 description = "Add your description here"
 readme = "README.md"
 requires-python = ">=3.13"
-dependencies = []
+dependencies = [
+    "attrs==18.2.0",
+    "black==18.9b0",
+    "flake8==3.7.6",
+    "mypy==0.670",
+]
 
 [tool.uv]
 exclude-newer = "30 days"

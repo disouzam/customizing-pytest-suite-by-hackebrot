@@ -9,6 +9,7 @@ dependencies = [
     "black==18.9b0",
     "flake8==3.7.6",
     "mypy",
+    "pytest>=9.0.3",
 ]
 
 [tool.uv]

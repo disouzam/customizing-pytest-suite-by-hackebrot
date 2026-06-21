@@ -21,3 +21,8 @@ dependencies = [
 [tool.uv]
 exclude-newer = "30 days"
 link-mode = "copy"
+
+[tool.pytest.ini_options]
+addopts = """
+--cov --cov-report html:tests/reports/coverage-html
+"""

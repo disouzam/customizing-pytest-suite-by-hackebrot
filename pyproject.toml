@@ -23,6 +23,9 @@ exclude-newer = "30 days"
 link-mode = "copy"
 
 [tool.pytest.ini_options]
+markers = [
+    "slow: tests that take a long time to complete.",
+]
 addopts = """
 --cov earth/ --cov-report html:tests/reports/coverage-html
 """

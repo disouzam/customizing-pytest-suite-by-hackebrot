@@ -28,5 +28,5 @@ markers = [
     "txl: tests that involve TXL airport.",
 ]
 addopts = """
---cov earth/ --cov-report html:tests/reports/coverage-html
+--cov earth/ --cov-report html:tests/reports/coverage-html --variables conferences.json
 """

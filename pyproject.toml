@@ -25,6 +25,7 @@ link-mode = "copy"
 [tool.pytest.ini_options]
 markers = [
     "slow: tests that take a long time to complete.",
+    "txl: tests that involve TXL airport.",
 ]
 addopts = """
 --cov earth/ --cov-report html:tests/reports/coverage-html

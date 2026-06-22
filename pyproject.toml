@@ -30,5 +30,5 @@ markers = [
     "wip: tests that are work in progress.",
 ]
 addopts = """
---cov earth/ --cov-report html:tests/reports/coverage-html --variables conferences.json
+--cov earth/ --cov-report html:tests/reports/coverage-html --variables conferences.json --emoji --md report.md
 """

@@ -2,7 +2,7 @@ import pytest
 
 @pytest.fixture
 def number():
-    return 1234 / 0
+    return 1234
 
 def test_number(number):
     assert number
